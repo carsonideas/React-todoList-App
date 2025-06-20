@@ -23,7 +23,7 @@ function App() {
 
     const newItem = {
       item: item,
-      description: description
+      description: description,
     };
 
     setTodoList((prevTodoList) => [...prevTodoList, newItem]);
@@ -51,7 +51,9 @@ function App() {
             value={description}
             onChange={handleChangeDescription}
           />
-          <button className="myAddButton" type="submit">Add Item</button>
+          <button className="myAddButton" type="submit">
+            Add Item
+          </button>
         </form>
 
         <div className="myListArea">

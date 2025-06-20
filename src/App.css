@@ -86,10 +86,9 @@ body {
   grid-template-columns: 2fr 3fr;
 
   padding: 15px;
-  
+
   align-items: center;
 }
-
 
 .myItemName {
   font-size: 18px;
