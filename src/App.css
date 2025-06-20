@@ -88,6 +88,8 @@ body {
   padding: 15px;
 
   align-items: center;
+
+  overflow-wrap: break-word;
 }
 
 .myItemName {
@@ -95,6 +97,7 @@ body {
   font-weight: 600;
   color: #333;
   margin: 0;
+  overflow-wrap: break-word;
 }
 
 .myItemNote {
@@ -102,4 +105,5 @@ body {
   color: #666;
   margin: 0;
   padding-left: 20px;
+  overflow-wrap: break-word;
 }
