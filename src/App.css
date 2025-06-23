@@ -38,6 +38,13 @@ body {
   text-align: center;
   margin-bottom: 30px;
   color: black;
+  
+}
+.myBigTitle:hover {
+  
+  /* transition: background 0.5s ease; */
+  transform: scale(1.05);
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
 }
 
 .myFormBox {
@@ -66,6 +73,12 @@ body {
   border-color: #007bff;
   
 }
+.myTextInput:hover {
+  background-color: #333;
+  /* transition: background 0.5s ease; */
+  transform: scale(1.05);
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
+}
 
 .myAddButton {
   padding: 12px 24px;
@@ -81,6 +94,9 @@ body {
 
 .myAddButton:hover {
   background-color: #333;
+  /* transition: background 0.5s ease; */
+  transform: scale(1.05);
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
 }
 
 .myListArea {
